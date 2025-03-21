@@ -50,6 +50,7 @@
                         },
                         success: function(data) {
                             alert("Form submitted successfully!");
+                            window.location.href = "patientdetails.php";
                         },
                         error: function(error) {
                             console.log(error);
